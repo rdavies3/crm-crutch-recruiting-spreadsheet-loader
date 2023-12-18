@@ -26,7 +26,7 @@
         },
         "info": {
             "author": {
-                "value": "rvenka49@asu.edu"
+                "value": "rdavies3@asu.edu"
             },
             "label": {},
             "notes": {
@@ -379,6 +379,15 @@
                             },
                             "mappingTable": {
                                 "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "rowId"
+                                        }
+                                    },
                                     {
                                         "expression": {
                                             "expression": true,

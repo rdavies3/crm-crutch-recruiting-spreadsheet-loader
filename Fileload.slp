@@ -5,40 +5,64 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link105": {
+        "link110": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "outputResponse"
+        },
+        "link130": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link136": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output1"
+        },
+        "link137": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        },
+        "link138": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link140": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "output0"
         },
-        "link110": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "outputResponse"
-        },
-        "link130": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
-            "src_view_id": "output0"
-        },
-        "link135": {
+        "link142": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link145": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link146": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output1"
         },
-        "link136": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
+        "link147": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
-            "src_view_id": "output1"
-        },
-        "link137": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
         }
     },
@@ -64,9 +88,9 @@
             }
         },
         "input": {
-            "11111111-1111-1111-1111-000000000000_input0": {
+            "11111111-1111-1111-1111-000000000005_input0": {
                 "label": {
-                    "value": "Pipeline Execute - input0"
+                    "value": "HTTP Client - input0"
                 },
                 "view_type": {
                     "value": "document"
@@ -74,17 +98,17 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000001_output0": {
+            "11111111-1111-1111-1111-000000000004_output0": {
                 "label": {
-                    "value": "Copy - output0"
+                    "value": "contactSm Mapper - output0"
                 },
                 "view_type": {
                     "value": "document"
                 }
             },
-            "11111111-1111-1111-1111-000000000004_output0": {
+            "11111111-1111-1111-1111-000000000008_output0": {
                 "label": {
-                    "value": "Copy - output0"
+                    "value": "Join - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -112,6 +136,18 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
                 "grid_x_int": 2,
                 "grid_y_int": 2,
                 "index": null,
@@ -120,11 +156,24 @@
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": "snap catagory"
+                "source": ""
             },
-            "11111111-1111-1111-1111-000000000001": {
+            "11111111-1111-1111-1111-000000000002": {
                 "error": {},
                 "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory",
+                "view": "output"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 4,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -140,52 +189,23 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-000000000002": {
-                "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 3,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "snap catagory"
-            },
-            "11111111-1111-1111-1111-000000000003": {
+            "11111111-1111-1111-1111-000000000004": {
                 "error": {},
                 "grid_x_int": 5,
                 "grid_y_int": 3,
-                "index": 0,
-                "input": {},
-                "output": {},
-                "recommendation_id": "b8e0d762-20ca-a78d-39aa-e226be64602f_0",
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": "iris panel"
-            },
-            "11111111-1111-1111-1111-000000000004": {
-                "error": {},
-                "grid_x_int": 6,
-                "grid_y_int": 3,
                 "index": null,
                 "input": {},
-                "output": {
-                    "output1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    }
-                },
+                "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": "snap catagory"
+                "source": "snap catagory",
+                "view": "output"
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 7,
-                "grid_y_int": 4,
+                "grid_x_int": 6,
+                "grid_y_int": 3,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -196,7 +216,67 @@
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 3,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "b8e0d762-20ca-a78d-39aa-e226be64602f_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris panel"
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
                 "grid_x_int": 8,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 10,
                 "grid_y_int": 4,
                 "index": 0,
                 "input": {},
@@ -213,9 +293,124 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../../shared/RecruitmentAccount",
+                                "value": "RecruitmentAccount"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-binary-binarybasicauthaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "cannedAcls": {
+                        "value": "None"
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "testFile.xlsx"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "flushIntervalKb": {
+                        "value": -1
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-excelparser",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
                 "error": {
                     "error0": {
@@ -232,7 +427,105 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Pipeline Execute"
+                        "value": "Excel Parser"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "EvaluateFormulasProp": {
+                        "value": false
+                    },
+                    "cellFormatting": {
+                        "value": "Formatted"
+                    },
+                    "columnNamesProp": {
+                        "value": []
+                    },
+                    "containsHeaderProp": {
+                        "value": true
+                    },
+                    "customLocale": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "endRowProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "headerRowProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "lastBlankHeaders": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "nullEmptyColumns": {
+                        "value": true
+                    },
+                    "roundDateToSeconds": {
+                        "value": false
+                    },
+                    "sheetIndexOrNameProp": {
+                        "expression": false,
+                        "value": "0"
+                    },
+                    "sheetNameProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "startRowProp": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
                     },
                     "notes": {}
                 },
@@ -257,62 +550,463 @@
                     }
                 },
                 "settings": {
-                    "batchSize": {
-                        "value": 1
-                    },
-                    "execLabel": {
-                        "expression": true,
-                        "value": null
-                    },
-                    "executable_during_suggest": {
-                        "value": true
-                    },
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "loopDocument": {
-                        "expression": true
-                    },
-                    "params": {
-                        "value": []
-                    },
-                    "pipeline": {
-                        "expression": false,
-                        "value": "csv_to_json conversion"
-                    },
-                    "poolSize": {
-                        "expression": false,
-                        "value": 1
-                    },
-                    "retryInterval": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "retryLimit": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "reuse": {
+                    "nullSafeAccess": {
                         "value": false
                     },
-                    "snaplex": {
-                        "expression": false
+                    "passThrough": {
+                        "value": false
                     },
-                    "snaplexGovernor": {
-                        "value": "SNAPLEX_WITH_PATH"
-                    },
-                    "timeout": {
-                        "expression": false,
-                        "value": null
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "rowId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Birthdate"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Birthdate"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign1"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign1Status"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign1Status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign2"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign2Status"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign2Status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign3"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Campaign3Status"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Campaign3Status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Career"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Career"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CitizenshipCountry"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$CitizenshipCountry"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$City"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$City"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$College"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$College"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Country"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Country"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Email"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Email"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$EMPLID"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$EMPLID"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$EntryTerm"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$EntryTerm"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Ethnicity"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Ethnicity"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$FirstGeneration"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$FirstGeneration"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$FirstName"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$FirstName"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Gender"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Gender"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$GradInterest"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$GradInterest"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$HomeLanguage"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$HomeLanguage"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ImportMode"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$ImportMode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$International"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$International"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$LastName"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$LastName"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$LeadSource"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$LeadSource"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$LeadSourceSubType"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$LeadSourceSubType"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Major"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Major"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MiddleName"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$MiddleName"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MilitaryBenefits"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$MilitaryBenefits"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MilitaryBranch"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$MilitaryBranch"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MilitaryStatus"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$MilitaryStatus"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MobilePhone"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$MobilePhone"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$OpportunityType"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$OpportunityType"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ParentEmail"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$ParentEmail"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Phone"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Phone"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$PostalCode"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$PostalCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$PreviousInstitution"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$PreviousInstitution"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SMSOptIn"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$SMSOptIn"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Stage"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Stage"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$State"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$State"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Street1"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Street1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Street2"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$Street2"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     }
                 },
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000001": {
+        "11111111-1111-1111-1111-000000000003": {
             "class_id": "com-snaplogic-snaps-flow-copy",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
                 "error": {
                     "error0": {
@@ -329,7 +1023,7 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Copy"
+                        "value": "Copy1"
                     }
                 },
                 "input": {
@@ -368,10 +1062,205 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000002": {
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "contactSm Mapper"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.parse($Birthdate).toLocaleDateTimeString({format:\"yyyy-MM-dd'T'hh:mm:ss.sss'Z'\"})"
+                                        },
+                                        "targetPath": {
+                                            "value": "birthdate"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$CitizenshipCountry"
+                                        },
+                                        "targetPath": {
+                                            "value": "citizenshipCountryCode"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$City"
+                                        },
+                                        "targetPath": {
+                                            "value": "city"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Country"
+                                        },
+                                        "targetPath": {
+                                            "value": "country"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Email"
+                                        },
+                                        "targetPath": {
+                                            "value": "email"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$FirstName"
+                                        },
+                                        "targetPath": {
+                                            "value": "firstname"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$LastName"
+                                        },
+                                        "targetPath": {
+                                            "value": "lastname"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Gender == \"F\" ? \"Female\" : \"Male\""
+                                        },
+                                        "targetPath": {
+                                            "value": "gender"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$MiddleName"
+                                        },
+                                        "targetPath": {
+                                            "value": "middlename"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Phone"
+                                        },
+                                        "targetPath": {
+                                            "value": "phone"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$PostalCode"
+                                        },
+                                        "targetPath": {
+                                            "value": "postal"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Street1"
+                                        },
+                                        "targetPath": {
+                                            "value": "street"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$State"
+                                        },
+                                        "targetPath": {
+                                            "value": "state"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$SMSOptIn==false"
+                                        },
+                                        "targetPath": {
+                                            "value": "smsOptIn"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
             "class_id": "com-snaplogic-snaps-apisuite-httpclient",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -650,10 +1539,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000006": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
                 "error": {
                     "error0": {
@@ -871,6 +1760,15 @@
                                     {
                                         "expression": {
                                             "expression": true,
+                                            "value": "snap.in.totalCount"
+                                        },
+                                        "targetPath": {
+                                            "value": "rowId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
                                             "value": "jsonPath($, \"$entity.contact[*].id\").toString()"
                                         },
                                         "targetPath": {
@@ -898,10 +1796,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000004": {
+        "11111111-1111-1111-1111-000000000007": {
             "class_id": "com-snaplogic-snaps-flow-copy",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "instance_id": "11111111-1111-1111-1111-000000000007",
             "property_map": {
                 "error": {
                     "error0": {
@@ -958,10 +1856,118 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000005": {
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-transform-multijoin",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Join"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "availableMemoryThreshold": {
+                        "expression": false,
+                        "value": 20
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "joinPaths": {
+                        "value": [
+                            {
+                                "leftPath": {
+                                    "expression": true,
+                                    "value": "$rowId"
+                                },
+                                "rightInputView": {
+                                    "value": "input1"
+                                },
+                                "rightPath": {
+                                    "expression": true,
+                                    "value": "$rowId"
+                                }
+                            }
+                        ]
+                    },
+                    "joinType": {
+                        "value": "Inner"
+                    },
+                    "minimumFreeDiskSpace": {
+                        "expression": false,
+                        "value": 500
+                    },
+                    "minimumMemory": {
+                        "expression": false,
+                        "value": 500
+                    },
+                    "noMatchData": {
+                        "value": false
+                    },
+                    "nullGreater": {
+                        "value": false
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "outOfResourceTimeout": {
+                        "expression": false,
+                        "value": 30
+                    },
+                    "sortedStreams": {
+                        "value": "Ascending"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
             "class_id": "com-snaplogic-snaps-transform-jsonformatter",
             "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "instance_id": "11111111-1111-1111-1111-000000000009",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1040,10 +2046,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
+        "11111111-1111-1111-1111-00000000000a": {
             "class_id": "com-snaplogic-snaps-binary-write",
             "class_version": 3,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
             "property_map": {
                 "account": {
                     "account_ref": {
