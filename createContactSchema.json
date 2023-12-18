@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "contact",
+    "description": "Salesforce Contact",
+    "type": "object",
+    "properties": {
+      "birthdate": {
+        "description": "Searches, updates and returns Birthdate",
+        "type": "string"
+      },
+	    "citizenshipCountry": {
+		    "description": "Searches across contact citizenship country, returns and updates Citizenship Country",
+	      "type": "string"
+      },
+	    "citizenshipCountryCode": {
+		    "description": "Searches across contact citizenship country two digit ISO code, returns and updates Citizenship Country Two digit ISO Code",
+		    "type": "string"
+	    },		
+      "city": {
+        "description": "Searches across contact cities, returns and updates MailingCity",
+        "type": "string"
+      },
+      "country": {
+        "description": "Searches across contact country, returns and updates MailingCountry",
+        "type": "string"
+      },
+      "countrycode": {
+        "description": "Searches across contact country, returns and updates MailingCountryCode",
+        "type": "string"
+      },		
+      "email": {
+        "description": "Email - Salesforce Email",
+        "type": "string"
+      },
+      "firstname": {
+        "description": "Searches across contact name, returns first name",
+        "type": "string"
+      },
+      "gender": {
+        "description": "[Peoplesoft] - Examples include: Female, Male, Unknow",
+        "type": "string",
+        "enum": ["Female","Male","Unknown"]
+      },
+      "lastname": {
+        "description": "Searches across contact name, returns last name",
+        "type": "string"
+      },
+      "middlename": {
+        "description": "Middle Name (Middle_Name__c) - [Peoplesoft] - An individual's middle name",
+        "type": "string"
+      },
+      "phone": {
+        "description": "Home Phone - returns and updates Phone",
+        "type": "string"
+      },
+      "postalcode": {
+        "description": "Searches across contact address, , returns and updates MailingPostalCode",
+        "type": "string"
+      },
+      "smsOptIn": {
+        "description": "add phone to SMS Phone for this submission",
+        "type": "boolean"
+      },
+      "state": {
+        "description": "Searches across contact address, , returns and updates MailingState",
+        "type": "string"
+      },
+      "statecode": {
+        "description": "Searches across contact address, returns and updates MailingStateCode",
+        "type": "string"
+      },
+      "street": {
+        "description": "Searches across contact address, returns and updates MailingStreet",
+        "type": "string"
+      }
+    },
+    "oneOf": [
+        {
+            "required": [
+                "firstname",
+                "lastname",
+                "email"
+            ]
+        },
+        {
+            "required": [
+                "firstname",
+                "lastname",
+                "leademail"
+            ]
+        }
+    ]
+}

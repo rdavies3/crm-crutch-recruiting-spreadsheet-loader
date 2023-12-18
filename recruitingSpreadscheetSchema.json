@@ -1,0 +1,134 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "ImportMode": {
+                "type": "string"
+            },
+            "Stage": {
+                "type": "string"
+            },
+            "FirstName": {
+                "type": "string"
+            },
+            "MiddleName": {
+                "type": "string"
+            },
+            "LastName": {
+                "type": "string"
+            },
+            "Email": {
+                "type": "string"
+            },
+            "Street1": {
+                "type": "string"
+            },
+            "Street2": {
+                "type": "string"
+            },
+            "City": {
+                "type": "string"
+            },
+            "State": {
+                "type": "string"
+            },
+            "PostalCode": {
+                "type": "number"
+            },
+            "Country": {
+                "type": "string"
+            },
+            "Phone": {
+                "type": "number"
+            },
+            "MobilePhone": {
+                "type": "number"
+            },
+            "Birthdate": {
+                "type": "string"
+            },
+            "Gender": {
+                "type": "string"
+            },
+            "Ethnicity": {
+                "type": "string"
+            },
+            "EMPLID": {
+                "type": "string"
+            },
+            "Career": {
+                "type": "string"
+            },
+            "OpportunityType": {
+                "type": "string"
+            },
+            "EntryTerm": {
+                "type": "number"
+            },
+            "LeadSource": {
+                "type": "string"
+            },
+            "LeadSourceSubType": {
+                "type": "string"
+            },
+            "SMSOptIn": {
+                "type": "string"
+            },
+            "PreviousInstitution": {
+                "type": "string"
+            },
+            "International": {
+                "type": "boolean"
+            },
+            "CitizenshipCountry": {
+                "type": "string"
+            },
+            "HomeLanguage": {
+                "type": "string"
+            },
+            "FirstGeneration": {
+                "type": "boolean"
+            },
+            "ParentEmail": {
+                "type": "string"
+            },
+            "MilitaryStatus": {
+                "type": "boolean"
+            },
+            "MilitaryBranch": {
+                "type": "string"
+            },
+            "MilitaryBenefits": {
+                "type": "string"
+            },
+            "GradInterest": {
+                "type": "string"
+            },
+            "College": {
+                "type": "string"
+            },
+            "Major": {
+                "type": "string"
+            },
+            "Campaign1": {
+                "type": "string"
+            },
+            "Campaign1Status": {
+                "type": "string"
+            },
+            "Campaign2": {
+                "type": "string"
+            },
+            "Campaign2Status": {
+                "type": "string"
+            },
+            "Campaign3": {
+                "type": "string"
+            },
+            "Campaign3Status": {
+                "type": "string"
+            }
+        }
+    }
+}
