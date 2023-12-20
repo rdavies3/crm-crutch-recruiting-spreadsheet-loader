@@ -47,12 +47,6 @@
             "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         },
-        "link145": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output0"
-        },
         "link146": {
             "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
@@ -64,10 +58,30 @@
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
+        },
+        "link148": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link149": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
         }
     },
     "property_map": {
         "error": {
+            "11111111-1111-1111-1111-000000000005_error0": {
+                "label": {
+                    "value": "HTTP Client - error0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
             "error_behavior": {
                 "value": "none"
             }
@@ -87,25 +101,8 @@
                 "value": null
             }
         },
-        "input": {
-            "11111111-1111-1111-1111-000000000005_input0": {
-                "label": {
-                    "value": "HTTP Client - input0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            }
-        },
+        "input": {},
         "output": {
-            "11111111-1111-1111-1111-000000000004_output0": {
-                "label": {
-                    "value": "contactSm Mapper - output0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            },
             "11111111-1111-1111-1111-000000000008_output0": {
                 "label": {
                     "value": "Join - output0"
@@ -203,7 +200,13 @@
                 "view": "output"
             },
             "11111111-1111-1111-1111-000000000005": {
-                "error": {},
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
                 "grid_x_int": 6,
                 "grid_y_int": 3,
                 "index": null,
@@ -582,7 +585,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Birthdate"
+                                            "value": "Birthdate"
                                         }
                                     },
                                     {
@@ -592,7 +595,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign1"
+                                            "value": "Campaign1"
                                         }
                                     },
                                     {
@@ -602,7 +605,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign1Status"
+                                            "value": "Campaign1Status"
                                         }
                                     },
                                     {
@@ -612,7 +615,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign2"
+                                            "value": "Campaign2"
                                         }
                                     },
                                     {
@@ -622,7 +625,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign2Status"
+                                            "value": "Campaign2Status"
                                         }
                                     },
                                     {
@@ -632,7 +635,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign3"
+                                            "value": "Campaign3"
                                         }
                                     },
                                     {
@@ -642,7 +645,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Campaign3Status"
+                                            "value": "Campaign3Status"
                                         }
                                     },
                                     {
@@ -652,7 +655,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Career"
+                                            "value": "Career"
                                         }
                                     },
                                     {
@@ -662,7 +665,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$CitizenshipCountry"
+                                            "value": "CitizenshipCountry"
                                         }
                                     },
                                     {
@@ -672,7 +675,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$City"
+                                            "value": "City"
                                         }
                                     },
                                     {
@@ -682,7 +685,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$College"
+                                            "value": "College"
                                         }
                                     },
                                     {
@@ -692,7 +695,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Country"
+                                            "value": "Country"
                                         }
                                     },
                                     {
@@ -702,7 +705,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Email"
+                                            "value": "Email"
                                         }
                                     },
                                     {
@@ -712,7 +715,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$EMPLID"
+                                            "value": "EMPLID"
                                         }
                                     },
                                     {
@@ -722,7 +725,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$EntryTerm"
+                                            "value": "EntryTerm"
                                         }
                                     },
                                     {
@@ -732,7 +735,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Ethnicity"
+                                            "value": "Ethnicity"
                                         }
                                     },
                                     {
@@ -742,7 +745,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$FirstGeneration"
+                                            "value": "FirstGeneration"
                                         }
                                     },
                                     {
@@ -752,7 +755,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$FirstName"
+                                            "value": "FirstName"
                                         }
                                     },
                                     {
@@ -762,7 +765,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Gender"
+                                            "value": "Gender"
                                         }
                                     },
                                     {
@@ -772,7 +775,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$GradInterest"
+                                            "value": "GradInterest"
                                         }
                                     },
                                     {
@@ -782,7 +785,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$HomeLanguage"
+                                            "value": "HomeLanguage"
                                         }
                                     },
                                     {
@@ -792,7 +795,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$ImportMode"
+                                            "value": "ImportMode"
                                         }
                                     },
                                     {
@@ -802,7 +805,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$International"
+                                            "value": "International"
                                         }
                                     },
                                     {
@@ -812,7 +815,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$LastName"
+                                            "value": "LastName"
                                         }
                                     },
                                     {
@@ -822,7 +825,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$LeadSource"
+                                            "value": "LeadSource"
                                         }
                                     },
                                     {
@@ -832,7 +835,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$LeadSourceSubType"
+                                            "value": "LeadSourceSubType"
                                         }
                                     },
                                     {
@@ -842,7 +845,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Major"
+                                            "value": "Major"
                                         }
                                     },
                                     {
@@ -852,7 +855,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$MiddleName"
+                                            "value": "MiddleName"
                                         }
                                     },
                                     {
@@ -862,7 +865,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$MilitaryBenefits"
+                                            "value": "MilitaryBenefits"
                                         }
                                     },
                                     {
@@ -872,7 +875,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$MilitaryBranch"
+                                            "value": "MilitaryBranch"
                                         }
                                     },
                                     {
@@ -882,7 +885,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$MilitaryStatus"
+                                            "value": "MilitaryStatus"
                                         }
                                     },
                                     {
@@ -892,7 +895,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$MobilePhone"
+                                            "value": "MobilePhone"
                                         }
                                     },
                                     {
@@ -902,7 +905,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$OpportunityType"
+                                            "value": "OpportunityType"
                                         }
                                     },
                                     {
@@ -912,7 +915,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$ParentEmail"
+                                            "value": "ParentEmail"
                                         }
                                     },
                                     {
@@ -922,7 +925,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Phone"
+                                            "value": "Phone"
                                         }
                                     },
                                     {
@@ -932,7 +935,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$PostalCode"
+                                            "value": "PostalCode"
                                         }
                                     },
                                     {
@@ -942,7 +945,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$PreviousInstitution"
+                                            "value": "PreviousInstitution"
                                         }
                                     },
                                     {
@@ -952,7 +955,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$SMSOptIn"
+                                            "value": "SMSOptIn"
                                         }
                                     },
                                     {
@@ -962,7 +965,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Stage"
+                                            "value": "Stage"
                                         }
                                     },
                                     {
@@ -972,7 +975,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$State"
+                                            "value": "State"
                                         }
                                     },
                                     {
@@ -982,7 +985,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Street1"
+                                            "value": "Street1"
                                         }
                                     },
                                     {
@@ -992,7 +995,7 @@
                                         },
                                         "targetPath": {
                                             "expression": true,
-                                            "value": "$Street2"
+                                            "value": "Street2"
                                         }
                                     }
                                 ]
@@ -1023,8 +1026,9 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Copy1"
-                    }
+                        "value": "copySourceData"
+                    },
+                    "notes": {}
                 },
                 "input": {
                     "input0": {
@@ -1290,7 +1294,7 @@
                         }
                     },
                     "error_behavior": {
-                        "value": "fail"
+                        "value": "continue"
                     }
                 },
                 "info": {
