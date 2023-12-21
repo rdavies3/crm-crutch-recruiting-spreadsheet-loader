@@ -1725,6 +1725,15 @@
                                         "targetPath": {
                                             "value": "contactId"
                                         }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$entity.contact[*].accountid\").toString()"
+                                        },
+                                        "targetPath": {
+                                            "value": "accountID"
+                                        }
                                     }
                                 ]
                             }
@@ -1812,7 +1821,7 @@
                         ]
                     },
                     "joinType": {
-                        "value": "Inner"
+                        "value": "Merge"
                     },
                     "minimumFreeDiskSpace": {
                         "expression": false,
