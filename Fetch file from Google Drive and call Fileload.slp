@@ -5,28 +5,22 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link100": {
+        "link104": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "outputResponse"
         },
-        "link101": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
-            "src_view_id": "output0"
-        },
-        "link102": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output0"
-        },
-        "link103": {
+        "link106": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         }
     },
@@ -111,6 +105,26 @@
                         "value": {
                             "value": null
                         }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "$cfileName"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": null
+                        }
                     }
                 ]
             }
@@ -120,18 +134,6 @@
         "default_snaplex": null,
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
-                "error": {},
-                "grid_x_int": 2,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000001": {
                 "error": {},
                 "grid_x_int": 3,
                 "grid_y_int": 2,
@@ -143,9 +145,21 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000002": {
+            "11111111-1111-1111-1111-000000000001": {
                 "error": {},
                 "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -158,13 +172,13 @@
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
                 "grid_x_int": 5,
-                "grid_y_int": 2,
+                "grid_y_int": 4,
                 "index": null,
                 "input": {},
                 "output": {},
                 "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
+                "rot_int": 90,
+                "rot_tail_int": 90,
                 "source": ""
             },
             "11111111-1111-1111-1111-000000000004": {
@@ -201,7 +215,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "Google_drive_http",
+                                "label": "../shared/Google_drive_http",
                                 "value": "Google_drive_http"
                             },
                             "ref_class_id": {
@@ -500,7 +514,7 @@
                                 },
                                 "paramValProp": {
                                     "expression": true,
-                                    "value": "\"parents='1NXx-UBSEFiscwnRBSqyTuP6KDdbZ_Ng-'  and name contains  '\"  + Date.now().toLocaleDateString({timeZone:'MST', format:'yyyy-MM-dd'}) + \"'\""
+                                    "value": "\"parents='1NXx-UBSEFiscwnRBSqyTuP6KDdbZ_Ng-'  \""
                                 }
                             }
                         ]
@@ -514,9 +528,79 @@
             }
         },
         "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "excludeList": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "jsonPath($, \"entity.files[*]\")"
+                    },
+                    "showNullValues": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
                     "error0": {
@@ -579,85 +663,24 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "jsonPath($, \"$entity.files[*].id\")"
+                                            "value": "$id"
                                         },
                                         "targetPath": {
-                                            "value": "$fileId"
+                                            "value": "$cfileId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$cfileName"
                                         }
                                     }
                                 ]
                             }
                         }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000002": {
-            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
-            "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "JSON Splitter"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "excludeList": {
-                        "value": false
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "includeParents": {
-                        "value": false
-                    },
-                    "includePaths": {
-                        "value": []
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "path": {
-                        "value": "$fileId"
-                    },
-                    "showNullValues": {
-                        "value": false
                     }
                 },
                 "view_serial": 100
@@ -709,7 +732,7 @@
                 },
                 "settings": {
                     "execution_mode": {
-                        "value": "Validate & Execute"
+                        "value": "Disabled"
                     },
                     "nullSafeAccess": {
                         "value": false
@@ -811,6 +834,15 @@
                                 "paramValue": {
                                     "expression": true,
                                     "value": "$cfileId"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "cfileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "$cfileName"
                                 }
                             }
                         ]
