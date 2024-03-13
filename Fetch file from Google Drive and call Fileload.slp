@@ -5,28 +5,28 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link104": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "outputResponse"
-        },
         "link106": {
-            "dst_id": "11111111-1111-1111-1111-000000000002",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000001",
-            "src_view_id": "output0"
-        },
-        "link107": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_id": "11111111-1111-1111-1111-000000000003",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "outputResponse"
         }
     },
     "property_map": {
         "error": {
-            "11111111-1111-1111-1111-000000000004_error0": {
+            "11111111-1111-1111-1111-000000000005_error0": {
                 "label": {
                     "value": "Pipeline Execute - error0"
                 },
@@ -54,7 +54,7 @@
             }
         },
         "input": {
-            "11111111-1111-1111-1111-000000000000_input0": {
+            "11111111-1111-1111-1111-000000000001_input0": {
                 "label": {
                     "value": "Fetch the file id - input0"
                 },
@@ -64,7 +64,7 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000004_output0": {
+            "11111111-1111-1111-1111-000000000005_output0": {
                 "label": {
                     "value": "Pipeline Execute - output0"
                 },
@@ -135,8 +135,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 2,
+                "grid_x_int": 2,
+                "grid_y_int": 3,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -171,7 +171,19 @@
             },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
-                "grid_x_int": 5,
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 6,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -181,7 +193,7 @@
                 "rot_tail_int": 90,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000004": {
+            "11111111-1111-1111-1111-000000000005": {
                 "error": {
                     "error0": {
                         "dx_int": 0,
@@ -189,7 +201,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 6,
+                "grid_x_int": 7,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -215,7 +227,329 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/Google_drive_http",
+                                "label": "Google_drive_http",
+                                "value": "Google_drive_http"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-apisuite-accounts-httpoauth2account"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Fetch the file id from the template"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "outputResponse": {
+                        "label": {
+                            "value": "Response"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "clientProperties": {
+                        "value": {
+                            "connection": {
+                                "value": {
+                                    "connTimeout": {
+                                        "value": 30
+                                    },
+                                    "cookiePolicy": {
+                                        "value": "RFC Lax"
+                                    },
+                                    "diskStagingProp": {
+                                        "value": false
+                                    },
+                                    "readTimeout": {
+                                        "value": 900
+                                    },
+                                    "trustAllCerts": {
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "outputProps": {
+                                "value": {
+                                    "errorRespToErrorview": {
+                                        "value": true
+                                    },
+                                    "extractEntity": {
+                                        "value": false
+                                    },
+                                    "extractEntityPath": {
+                                        "expression": true,
+                                        "value": "$.entity"
+                                    },
+                                    "includeCookies": {
+                                        "value": false
+                                    },
+                                    "responseType": {
+                                        "value": "JSON"
+                                    }
+                                }
+                            },
+                            "redirects": {
+                                "value": {
+                                    "allowCircularRedirect": {
+                                        "value": false
+                                    },
+                                    "allowRelativeRedirect": {
+                                        "value": true
+                                    },
+                                    "followOriginalMethod": {
+                                        "value": false
+                                    },
+                                    "followRedirection": {
+                                        "value": true
+                                    },
+                                    "maxRedirect": {
+                                        "expression": false,
+                                        "value": 10
+                                    }
+                                }
+                            },
+                            "retry": {
+                                "value": {
+                                    "autoRetry429": {
+                                        "value": true
+                                    },
+                                    "maxRetry": {
+                                        "value": 5
+                                    },
+                                    "retryCondition": {
+                                        "value": "Connection Errors"
+                                    },
+                                    "retryInterval": {
+                                        "value": 3
+                                    },
+                                    "useRetryAfterHeader": {
+                                        "value": true
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "enableDebug": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "formEncodeSpace": {
+                        "value": false
+                    },
+                    "header": {
+                        "value": []
+                    },
+                    "httpEntity": {
+                        "value": {
+                            "binaryFile": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "entityType": {
+                                "value": "none"
+                            },
+                            "multipartForm": {
+                                "value": [
+                                    {
+                                        "partContentType": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partKey": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partType": {
+                                            "value": "Text"
+                                        },
+                                        "partValue": {
+                                            "expression": false,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "multipartSubtype": {
+                                "expression": false,
+                                "value": "form-data"
+                            },
+                            "rawEntity": {
+                                "expression": true,
+                                "value": "$"
+                            },
+                            "urlEncodedForm": {
+                                "value": []
+                            }
+                        }
+                    },
+                    "httpMethod": {
+                        "expression": false,
+                        "value": "GET"
+                    },
+                    "pagination": {
+                        "value": {
+                            "hasNext": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "maxPage": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "nextUrl": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "overrideHeaders": {
+                                "value": [
+                                    {
+                                        "overrideHeaderName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideHeaderValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideParams": {
+                                "value": [
+                                    {
+                                        "overrideParamName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideParamValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideURI": {
+                                "value": false
+                            },
+                            "paginationInterval": {
+                                "value": 0
+                            },
+                            "reuseParamsForPagination": {
+                                "value": false
+                            }
+                        }
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "queryParam": {
+                        "value": [
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "corpora"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "drive"
+                                }
+                            },
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "driveId"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "0AIdXRWyWfkZ3Uk9PVA"
+                                }
+                            },
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "includeItemsFromAllDrives"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "true"
+                                }
+                            },
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "supportsAllDrives"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "true"
+                                }
+                            },
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "q"
+                                },
+                                "paramValProp": {
+                                    "expression": true,
+                                    "value": "\"parents='16AZZdpZ45RoLBYbr5aKP0jCijg4x7-eB'  \""
+                                }
+                            }
+                        ]
+                    },
+                    "uri": {
+                        "expression": false,
+                        "value": "https://www.googleapis.com/drive/v3/files"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-apisuite-httpclient",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "Google_drive_http",
                                 "value": "Google_drive_http"
                             },
                             "ref_class_id": {
@@ -527,10 +861,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000001": {
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
                     "error0": {
@@ -597,10 +931,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000002": {
+        "11111111-1111-1111-1111-000000000003": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
                 "error": {
                     "error0": {
@@ -672,7 +1006,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$name"
+                                            "value": "$name.substring(0,$name.indexOf(\"_\")+1)"
                                         },
                                         "targetPath": {
                                             "value": "$cfileName"
@@ -686,10 +1020,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "error": {
                     "error0": {
@@ -764,10 +1098,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000004": {
+        "11111111-1111-1111-1111-000000000005": {
             "class_id": "com-snaplogic-snaps-flow-pipeexec",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
                 "error": {
                     "error0": {
@@ -881,5 +1215,6 @@
                 "view_serial": 100
             }
         }
-    }
+    },
+    "target_runtime": "standard"
 }
