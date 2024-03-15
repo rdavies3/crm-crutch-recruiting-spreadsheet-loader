@@ -1,0 +1,32 @@
+{
+    "class_id": "com-snaplogic-snaps-apisuite-accounts-basicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "asu-np"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "crm-crutch-recruiting-spreadsheet-np-contact"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "expression": false,
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "wBptzwWps3M+1wzQMdby4w==",
+                "sym_key": "QUumZ8ZjNC08zaLRbciJDg4wz2yIbtHs51U4AbuUYNLTEIXq9nJiZP1r28PkBjrIG2BJAtePs2s8v9GVT528Y2HASVewSzSUADJbZQv8ehVOuEQYLnyZJVSY+A4QHZ+gGj8bb5pS4ikSQ2HbcskWvV+2TDhiLP0CJgS8QD208GYNtisJDHangz9dRrYbsQyJ6KSy4BXcs1lSy7/EBZtlNBt50zKNg7oOLHHPYKJzvIppjR4vEnQxyByKTyyUPWa49lnKFv9ZturzSrjGNtHm0/xMFe6ZvlDSyvHRvdL0Dfy6gePlardyvoplSNCXnBYx1cbsSlEvy6epX2bFjAA1Cw==",
+                "value": "rUeHXC8SgVw4AB7JSFKc76J6fHDRxiojiwJpxf4edsHov59bxJwJ5MstYI2dp3ZS"
+            },
+            "username": {
+                "expression": false,
+                "value": "d258a911e3a34880b94ed44d38c84f45"
+            }
+        },
+        "view_serial": 100
+    }
+}

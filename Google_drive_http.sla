@@ -1,0 +1,149 @@
+{
+    "class_id": "com-snaplogic-snaps-apisuite-accounts-httpoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "asu-np"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Google_drive_http"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "zFzk1ueLJoygzVs8/Gyxmg==",
+                "sym_key": "VUvK/vD25hnvBx9UVNQLEQ4NMrfUgflvyICxzp0BGScLqlBPD+hUohv+Yeh/wrHfpK0VUOYimtewpCObVJeCqmuE57hVITxp9Mj13ndEZ/hC9bN/izO/PHJwoSrOygk9vBRLVQYN+zMSdEnS2dk4KCPKh42da7kBkkYFej+OpEGQ6ZH1vZxjgSyiVKiRJ3jleaMNkP4HuN79at7hvWcECjq6dkd8iWg3h8/WdCpIw5ov+btMHoGkMHLTIc6iOYuF3vi77AeRTRDVtRGFWv3izBjAmh6fAezyuLk+BWZ0cyP77l8dL+9qDyyTcWSCNDDQW1H0mJuriVI9+oIR7ftDeQ==",
+                "value": "il267uwCSG/aUgrlVtVVjnqxXPzpW07Xm4PYK8H6yRlMZOit9n4OSGhfaXwF33OyNoVilcSYZDui9+tF2rH9wnnHMGwCupONzaCyWK1cC2BXuOAhP81Dng7125Cf6xc0+Ex8P4UgDbxUZMS48gZw1DmqCqe7Nejc9gtTGzt4msitr4wUWTHIYDl1VSo+8aF8d792YoFBVK2a6o2AZrkqu/ZmCURmR3/WDhtPNZwxVjCwtq64/ilKN0vGiLwSjDcokB8BeMx4v846y0ViHfMDG4pC3Jg9syrYAmrCcQZw+wY="
+            },
+            "access_token_expiration": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": "1710360944"
+            },
+            "auth_endpoint": {
+                "value": "https://accounts.google.com/o/oauth2/v2/auth"
+            },
+            "auth_endpoint_config": {
+                "value": [
+                    {
+                        "authParam": {
+                            "value": "scope"
+                        },
+                        "authParamValue": {
+                            "value": "https://www.googleapis.com/auth/drive"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "redirect_uri"
+                        },
+                        "authParamValue": {
+                            "value": "https://elastic.snaplogic.com/api/1/rest/admin/oauth2callback/rest"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "response_type"
+                        },
+                        "authParamValue": {
+                            "value": "code"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "access_type"
+                        },
+                        "authParamValue": {
+                            "value": "offline"
+                        }
+                    },
+                    {
+                        "authParam": {
+                            "value": "approval_prompt"
+                        },
+                        "authParamValue": {
+                            "value": "auto"
+                        }
+                    }
+                ]
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "766720081757-vo07tovru9osrspsk8skhfcdpic96pfs.apps.googleusercontent.com"
+            },
+            "client_secret": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "aU8EYP0t0oYvrHI8CoxA+g==",
+                "sym_key": "CG4D+thXgSTOu3TSoBpWeMet0RiP2nSqRRDNM0+mgwkT5JbCXxKcaTeicCMSvEg9vshKNFduvXmyJY8Q45wIrMg2tjMuMCHoNl+EQL8f3jzhY7js4Djg/y7g7TEV38SJHWrpmxw8CqI4jPg7WYeHchrcjy9bd7Kzf2Hi9XKXdAuodyHhZvt4hSsWGWYS3aGoo9jWFuvFN1IsVyVlI5Yne8BtN+aAA2i/RcB3G6XI96OTxU9Kny370upcXlPiQbp//Mouqqe8Gy/4U+lhfIR4UjVaJlLqMozdR45CVn2hzCez3ScwDvJpne9SqE3PAsBTHm6pA5w8BZ2261hX2GQvgg==",
+                "value": "hcqYQxv4d/RY6sFTvT3h4e7kvrYpZEHS/aSBv4hsbuN4hHFTRu3YMJf4/WKI4CQX"
+            },
+            "grant_type": {
+                "value": "authorization_code"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "oauth2JsonRestResponse": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "OJGofgPKu1dOsFpJwiG/sA==",
+                "sym_key": "k9DjQUlJRFrsJwm5f3amn55wor0OLLLSaKiQRyIgUHDJT/B0Nem1fjHffjqxNLAe99N5JaH8UT7AbUey5c07xP8Qsjf51W2UVqx5W33oLGbetDzhUfyZCWEw0KJI6OcQ3wiF5uXV4vFok+noTNzZrG6BM5eF+H5idbqLLPwi9rGx8yYWEy2lzLZzODvP4+/nNWLF9yzs8XzjcTdzWcB+VTb6X3RU6kYwtbZuOKKBp63RQdFIjCLEpnacmkhhYTSMbMuooAhiI1iN1X2olcgvA9o94X6/uC2lP5amDC3ercakcH1YcLK/8oAwForO3FAqShjHI5Vr8O2VZWEXJXBYLQ==",
+                "value": "2wHUanmN4Gx7e+e9LrO8kg=="
+            },
+            "oauth_token": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": null
+            },
+            "oauth_token_secret": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": null
+            },
+            "refresh_token": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "EmhKGIxhLj9Ovd11dTbB8w==",
+                "sym_key": "XT2SD2i2pfX/wW/a7uhGTe8i0Uynsh6KCJk+NXKBl4b8ZJ32iyP03oFnjbV9upRz9zqNDQCs1bG8v/X+j+OzB4pgEB5XaN00NpiYwCSO2VV5vR/sX1/QUV7n1tv3jrOQN2Y6nwo97qEwaMyASW5uHWbDZdb/XtCD/d/03PePEG10aS7xGRy+GyXJeYfPh52vpnKbKiFG6eKyYLiUwyeV501MaWODbtvAq2kqAf49sBodux6NZ5viWg8OHD6dmvResgP3H8N0qpHYC/TU+GHixXITNPysCPgzd1CkoWjNxDvKCMxO/lNsmdtjPewQXmGQXlSeSy4b27Rp1VhJU+pGyw==",
+                "value": "DL5yiLfqNaIYTfU8qLoCDA=="
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://www.googleapis.com/oauth2/v3/token"
+            },
+            "token_endpoint_config": {
+                "value": [
+                    {
+                        "tokenParam": {
+                            "value": "redirect_uri"
+                        },
+                        "tokenParamValue": {
+                            "value": "https://elastic.snaplogic.com/api/1/rest/admin/oauth2callback/rest"
+                        }
+                    }
+                ]
+            },
+            "username": {
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}
