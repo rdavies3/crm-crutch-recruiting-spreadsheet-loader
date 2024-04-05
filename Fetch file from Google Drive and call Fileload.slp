@@ -23,18 +23,6 @@
             "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "outputResponse"
         },
-        "link110": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input1",
-            "src_id": "11111111-1111-1111-1111-000000000005",
-            "src_view_id": "output0"
-        },
-        "link111": {
-            "dst_id": "11111111-1111-1111-1111-000000000007",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000006",
-            "src_view_id": "output0"
-        },
         "link113": {
             "dst_id": "11111111-1111-1111-1111-000000000003",
             "dst_view_id": "input0",
@@ -47,7 +35,19 @@
             "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output1"
         },
-        "link115": {
+        "link119": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link120": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link121": {
             "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000003",
@@ -857,7 +857,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/Google_drive_http",
+                                "label": "shared/Google_drive_http",
                                 "value": "Google_drive_http"
                             },
                             "ref_class_id": {
@@ -1308,7 +1308,7 @@
                         ]
                     },
                     "joinType": {
-                        "value": "Inner"
+                        "value": "Merge"
                     },
                     "minimumFreeDiskSpace": {
                         "expression": false,
@@ -1408,15 +1408,6 @@
                                 "paramValue": {
                                     "expression": true,
                                     "value": "$cfileId"
-                                }
-                            },
-                            {
-                                "paramName": {
-                                    "value": "cfileName"
-                                },
-                                "paramValue": {
-                                    "expression": true,
-                                    "value": "$cfileName"
                                 }
                             },
                             {
