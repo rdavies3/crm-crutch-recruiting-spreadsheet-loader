@@ -1,0 +1,58 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "asu-np"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "ASU_smtp_dev"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "attachmentPassword": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "Bt1xpi1CpIvMPupG/csZng==",
+                "sym_key": "NUVfJayZBl/z8T/M6vlDQl9PnsuokOdivrfpYcw/1JTeKL2WEzHW3LhzZmo+ekVSeC2AiZ9G1pdf3KjN76dRMfTlHJIe5NcOrQLCzYGbhKGvEUA7aFcUPY2DvCRdo7Mbdje7F+mdrGYnGvGFpIjslh3loOCAadaOUeZe6B/o7iecVpAf40um15cGcKABmNc+P7dtPdGh3szOi4cqsUk3+Ek/VZXDXV7qZjNtns9IuvZ8G/oEtONI5mmWU/lHGRzimIdk3jfVIMz4YgpWUFUDePrSfe55ADoXvZEq9V56RAcNPiCRfVPi6QLk8sRkPz3VvlpuhiRWGQw9BhUxa5k+ag==",
+                "value": "3xV98duxec60Q9ftRPWhmQ=="
+            },
+            "connectionTimeout": {
+                "value": 6000
+            },
+            "emailId": {
+                "value": "rvenka49@asurite,asu.edu"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                "sym_iv": "kcrWXAcOw0uYgOh5xuKNUQ==",
+                "sym_key": "pbE08vIwxkLaihx6v7NxrrebXTst+xLZGyQDNTSrUTGNMoxcejg7QPcgJvOu3MAyoJXDJ2CEzUvPdUJ/fosNWrV7nOx2vkj3dH1uuGOFeLbV5gkvphSiecbEaCg90SXcVueZnrcuv087GoiZvagGolZ+SC+D4xfOy0ODpR0Wq0muo4k4tIepCRwyb3jFSRLToJwCsJErCd1TBG8nkZK0guEMuYOIOgN7oYd5kASqxTezXWfS3uH1NYqdZoMIcYrU7Lpse0xv5wzTac/0eJypDJLnun+WbxDL0kMrvQI+cg7sCnnlVilHc93g1m9dO2rVHcsjE7eOJgC6ymHCvYJDuA==",
+                "value": "TipRNsD391y+DaaC2Dx4Og=="
+            },
+            "port": {
+                "value": "587"
+            },
+            "readTimeout": {
+                "value": 6000
+            },
+            "secureConnection": {
+                "value": "STARTTLS"
+            },
+            "serverDomain": {
+                "value": "smtp.office365.com"
+            },
+            "writeTimeout": {
+                "value": 6000
+            }
+        },
+        "view_serial": 100
+    }
+}
