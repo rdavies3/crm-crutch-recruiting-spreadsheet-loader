@@ -1,62 +1,74 @@
 {
     "ai_map": {
-        "footprint": "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"
+        "footprint": "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"
     },
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
         "link106": {
-            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         },
-        "link108": {
+        "link109": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "outputResponse"
+        },
+        "link113": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link114": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output1"
+        },
+        "link119": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link120": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link121": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link134": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "outputResponse"
         },
-        "link109": {
-            "dst_id": "11111111-1111-1111-1111-000000000005",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
-            "src_view_id": "outputResponse"
-        },
-        "link113": {
+        "link135": {
             "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output0"
-        },
-        "link114": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
-            "dst_view_id": "input102",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output1"
         },
-        "link119": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input1",
-            "src_id": "11111111-1111-1111-1111-000000000005",
-            "src_view_id": "output0"
-        },
-        "link120": {
-            "dst_id": "11111111-1111-1111-1111-000000000007",
+        "link139": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000006",
-            "src_view_id": "output0"
-        },
-        "link121": {
-            "dst_id": "11111111-1111-1111-1111-000000000006",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         }
     },
     "property_map": {
         "error": {
-            "11111111-1111-1111-1111-000000000007_error0": {
+            "11111111-1111-1111-1111-000000000009_error0": {
                 "label": {
                     "value": "Pipeline Execute - error0"
                 },
@@ -94,7 +106,7 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000007_output0": {
+            "11111111-1111-1111-1111-000000000009_output0": {
                 "label": {
                     "value": "Pipeline Execute - output0"
                 },
@@ -201,11 +213,17 @@
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
-                "output": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
@@ -221,7 +239,31 @@
             },
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 90,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
                 "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 6,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -237,11 +279,11 @@
                 "rot_tail_int": 0,
                 "source": "snap catagory"
             },
-            "11111111-1111-1111-1111-000000000004": {
+            "11111111-1111-1111-1111-000000000006": {
                 "dx_int": null,
                 "dy_int": null,
                 "error": {},
-                "grid_x_int": 6,
+                "grid_x_int": 7,
                 "grid_y_int": 3,
                 "index": null,
                 "input": {},
@@ -252,9 +294,9 @@
                 "source": "",
                 "view": "output"
             },
-            "11111111-1111-1111-1111-000000000005": {
+            "11111111-1111-1111-1111-000000000007": {
                 "error": {},
-                "grid_x_int": 7,
+                "grid_x_int": 8,
                 "grid_y_int": 3,
                 "index": null,
                 "input": {},
@@ -264,9 +306,9 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000006": {
+            "11111111-1111-1111-1111-000000000008": {
                 "error": {},
-                "grid_x_int": 8,
+                "grid_x_int": 9,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {
@@ -282,7 +324,7 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000007": {
+            "11111111-1111-1111-1111-000000000009": {
                 "error": {
                     "error0": {
                         "dx_int": 0,
@@ -290,7 +332,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 9,
+                "grid_x_int": 10,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -629,9 +671,94 @@
             }
         },
         "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filesfound?"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "firstMatch": {
+                        "value": false
+                    },
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$entity.files.length!=0"
+                                },
+                                "outputViewName": {
+                                    "value": "output0"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$entity.files.length==0"
+                                },
+                                "outputViewName": {
+                                    "value": "output1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
                     "error0": {
@@ -698,10 +825,116 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000002": {
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../shared/Email_SMTP_Dev",
+                                "value": "Email_SMTP_Dev"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {},
+                "settings": {
+                    "attachments": {
+                        "value": []
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": false,
+                        "value": "No files found"
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "HTML text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "File not found"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "rvenka49@asu.edu"
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "error": {
                     "error0": {
@@ -787,10 +1020,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000005": {
             "class_id": "com-snaplogic-snaps-flow-copy",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
                 "error": {
                     "error0": {
@@ -846,10 +1079,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000004": {
+        "11111111-1111-1111-1111-000000000006": {
             "class_id": "com-snaplogic-snaps-apisuite-httpclient",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -1152,10 +1385,10 @@
                 "view_serial": 102
             }
         },
-        "11111111-1111-1111-1111-000000000005": {
+        "11111111-1111-1111-1111-000000000007": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "instance_id": "11111111-1111-1111-1111-000000000007",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1230,10 +1463,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000006": {
+        "11111111-1111-1111-1111-000000000008": {
             "class_id": "com-snaplogic-snaps-transform-multijoin",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "instance_id": "11111111-1111-1111-1111-000000000008",
             "property_map": {
                 "error": {
                     "error0": {
@@ -1338,10 +1571,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000007": {
+        "11111111-1111-1111-1111-000000000009": {
             "class_id": "com-snaplogic-snaps-flow-pipeexec",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "instance_id": "11111111-1111-1111-1111-000000000009",
             "property_map": {
                 "error": {
                     "error0": {
