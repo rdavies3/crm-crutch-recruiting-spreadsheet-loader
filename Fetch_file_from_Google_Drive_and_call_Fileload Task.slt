@@ -1,0 +1,18 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Fetch_file_from_Google_Drive_and_call_Fileload Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "pipeline_parameters": {
+            "PATH_INFO": "https://esb-qa.asu.edu"
+        },
+        "pipeline_path": "Fetch_file_from_Google_Drive_and_call_Fileload",
+        "snaplex_path": "asu_int_np"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
