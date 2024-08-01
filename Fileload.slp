@@ -68,7 +68,7 @@
         "link300": {
             "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "outputResponse"
         },
         "link301": {
@@ -446,13 +446,13 @@
         "link487": {
             "dst_id": "11111111-1111-1111-1111-000000000007",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_id": "11111111-1111-1111-1111-000000000005",
             "src_view_id": "output0"
         },
         "link488": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         },
         "link495": {
@@ -900,9 +900,9 @@
             "src_view_id": "output103"
         },
         "link633": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "outputResponse"
         },
         "link643": {
@@ -1049,12 +1049,6 @@
             "src_id": "11111111-1111-1111-1111-00000000001f",
             "src_view_id": "output1"
         },
-        "link740": {
-            "dst_id": "11111111-1111-1111-1111-000000000002",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000000",
-            "src_view_id": "outputResponse"
-        },
         "link741": {
             "dst_id": "11111111-1111-1111-1111-000000000021",
             "dst_view_id": "input1",
@@ -1072,6 +1066,12 @@
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-00000000001f",
             "src_view_id": "output0"
+        },
+        "link744": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "outputResponse"
         }
     },
     "property_map": {
@@ -1082,7 +1082,7 @@
         },
         "info": {
             "author": {
-                "value": "rvenka49@asu.edu"
+                "value": "roger.davies@asu.edu"
             },
             "label": {},
             "notes": {
@@ -1096,9 +1096,9 @@
             }
         },
         "input": {
-            "11111111-1111-1111-1111-000000000001_input0": {
+            "11111111-1111-1111-1111-000000000000_input0": {
                 "label": {
-                    "value": "Fetch the file id - input0"
+                    "value": "Download the contents - input0"
                 },
                 "view_type": {
                     "value": "document"
@@ -1190,7 +1190,7 @@
                     },
                     {
                         "capture": {
-                            "value": false
+                            "value": true
                         },
                         "data_type": {
                             "value": "string"
@@ -1210,7 +1210,7 @@
                     },
                     {
                         "capture": {
-                            "value": false
+                            "value": true
                         },
                         "data_type": {
                             "value": "string"
@@ -1237,7 +1237,7 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 6,
+                "grid_x_int": 3,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1249,8 +1249,32 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 6,
-                "grid_y_int": 8,
+                "grid_x_int": 4,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 14,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 270,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 15,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -1259,34 +1283,10 @@
                 "rot_tail_int": 0,
                 "source": ""
             },
-            "11111111-1111-1111-1111-000000000002": {
-                "error": {},
-                "grid_x_int": 7,
-                "grid_y_int": 7,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000003": {
-                "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 4,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 7,
+                "grid_x_int": 5,
+                "grid_y_int": 4,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -1297,19 +1297,19 @@
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 8,
-                "grid_y_int": 10,
+                "grid_x_int": 5,
+                "grid_y_int": 7,
                 "index": null,
                 "input": {},
                 "output": {},
                 "recommendation_id": null,
-                "rot_int": 90,
-                "rot_tail_int": 90,
+                "rot_int": 0,
+                "rot_tail_int": 0,
                 "source": ""
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
-                "grid_x_int": 9,
+                "grid_x_int": 6,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -1321,7 +1321,7 @@
             },
             "11111111-1111-1111-1111-000000000007": {
                 "error": {},
-                "grid_x_int": 9,
+                "grid_x_int": 6,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1339,7 +1339,7 @@
             },
             "11111111-1111-1111-1111-000000000008": {
                 "error": {},
-                "grid_x_int": 10,
+                "grid_x_int": 7,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -1351,7 +1351,7 @@
             },
             "11111111-1111-1111-1111-000000000009": {
                 "error": {},
-                "grid_x_int": 10,
+                "grid_x_int": 7,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -1363,7 +1363,7 @@
             },
             "11111111-1111-1111-1111-00000000000a": {
                 "error": {},
-                "grid_x_int": 10,
+                "grid_x_int": 7,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {
@@ -1381,7 +1381,7 @@
             },
             "11111111-1111-1111-1111-00000000000b": {
                 "error": {},
-                "grid_x_int": 10,
+                "grid_x_int": 7,
                 "grid_y_int": 8,
                 "index": null,
                 "input": {},
@@ -1393,7 +1393,7 @@
             },
             "11111111-1111-1111-1111-00000000000c": {
                 "error": {},
-                "grid_x_int": 10,
+                "grid_x_int": 7,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -1405,7 +1405,7 @@
             },
             "11111111-1111-1111-1111-00000000000d": {
                 "error": {},
-                "grid_x_int": 11,
+                "grid_x_int": 8,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -1417,7 +1417,7 @@
             },
             "11111111-1111-1111-1111-00000000000e": {
                 "error": {},
-                "grid_x_int": 11,
+                "grid_x_int": 8,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1429,7 +1429,7 @@
             },
             "11111111-1111-1111-1111-00000000000f": {
                 "error": {},
-                "grid_x_int": 12,
+                "grid_x_int": 9,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -1441,7 +1441,7 @@
             },
             "11111111-1111-1111-1111-000000000010": {
                 "error": {},
-                "grid_x_int": 12,
+                "grid_x_int": 9,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1459,7 +1459,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 13,
+                "grid_x_int": 10,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {
@@ -1477,7 +1477,7 @@
             },
             "11111111-1111-1111-1111-000000000012": {
                 "error": {},
-                "grid_x_int": 13,
+                "grid_x_int": 10,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1510,7 +1510,7 @@
             },
             "11111111-1111-1111-1111-000000000013": {
                 "error": {},
-                "grid_x_int": 14,
+                "grid_x_int": 11,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -1522,7 +1522,7 @@
             },
             "11111111-1111-1111-1111-000000000014": {
                 "error": {},
-                "grid_x_int": 14,
+                "grid_x_int": 11,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1540,7 +1540,7 @@
             },
             "11111111-1111-1111-1111-000000000015": {
                 "error": {},
-                "grid_x_int": 14,
+                "grid_x_int": 11,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -1552,7 +1552,7 @@
             },
             "11111111-1111-1111-1111-000000000016": {
                 "error": {},
-                "grid_x_int": 15,
+                "grid_x_int": 12,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1570,7 +1570,7 @@
             },
             "11111111-1111-1111-1111-000000000017": {
                 "error": {},
-                "grid_x_int": 15,
+                "grid_x_int": 12,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -1582,7 +1582,7 @@
             },
             "11111111-1111-1111-1111-000000000018": {
                 "error": {},
-                "grid_x_int": 15,
+                "grid_x_int": 12,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -1600,7 +1600,7 @@
             },
             "11111111-1111-1111-1111-000000000019": {
                 "error": {},
-                "grid_x_int": 16,
+                "grid_x_int": 13,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1612,7 +1612,7 @@
             },
             "11111111-1111-1111-1111-00000000001a": {
                 "error": {},
-                "grid_x_int": 16,
+                "grid_x_int": 13,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1624,7 +1624,7 @@
             },
             "11111111-1111-1111-1111-00000000001b": {
                 "error": {},
-                "grid_x_int": 16,
+                "grid_x_int": 13,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -1636,7 +1636,7 @@
             },
             "11111111-1111-1111-1111-00000000001c": {
                 "error": {},
-                "grid_x_int": 16,
+                "grid_x_int": 13,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -1648,7 +1648,7 @@
             },
             "11111111-1111-1111-1111-00000000001d": {
                 "error": {},
-                "grid_x_int": 16,
+                "grid_x_int": 13,
                 "grid_y_int": 11,
                 "index": null,
                 "input": {},
@@ -1660,7 +1660,7 @@
             },
             "11111111-1111-1111-1111-00000000001e": {
                 "error": {},
-                "grid_x_int": 17,
+                "grid_x_int": 14,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1672,7 +1672,7 @@
             },
             "11111111-1111-1111-1111-00000000001f": {
                 "error": {},
-                "grid_x_int": 17,
+                "grid_x_int": 14,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1690,7 +1690,7 @@
             },
             "11111111-1111-1111-1111-000000000020": {
                 "error": {},
-                "grid_x_int": 17,
+                "grid_x_int": 14,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -1702,7 +1702,7 @@
             },
             "11111111-1111-1111-1111-000000000021": {
                 "error": {},
-                "grid_x_int": 18,
+                "grid_x_int": 15,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {
@@ -1720,7 +1720,7 @@
             },
             "11111111-1111-1111-1111-000000000022": {
                 "error": {},
-                "grid_x_int": 19,
+                "grid_x_int": 16,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -1732,7 +1732,7 @@
             },
             "11111111-1111-1111-1111-000000000023": {
                 "error": {},
-                "grid_x_int": 19,
+                "grid_x_int": 16,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -1744,7 +1744,7 @@
             },
             "11111111-1111-1111-1111-000000000024": {
                 "error": {},
-                "grid_x_int": 20,
+                "grid_x_int": 17,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -1762,7 +1762,7 @@
             },
             "11111111-1111-1111-1111-000000000025": {
                 "error": {},
-                "grid_x_int": 20,
+                "grid_x_int": 17,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {
@@ -1780,7 +1780,7 @@
             },
             "11111111-1111-1111-1111-000000000026": {
                 "error": {},
-                "grid_x_int": 21,
+                "grid_x_int": 18,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -1798,7 +1798,7 @@
             },
             "11111111-1111-1111-1111-000000000027": {
                 "error": {},
-                "grid_x_int": 21,
+                "grid_x_int": 18,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {
@@ -1821,7 +1821,7 @@
             },
             "11111111-1111-1111-1111-000000000028": {
                 "error": {},
-                "grid_x_int": 22,
+                "grid_x_int": 19,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -1833,7 +1833,7 @@
             },
             "11111111-1111-1111-1111-000000000029": {
                 "error": {},
-                "grid_x_int": 22,
+                "grid_x_int": 19,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1845,7 +1845,7 @@
             },
             "11111111-1111-1111-1111-00000000002a": {
                 "error": {},
-                "grid_x_int": 22,
+                "grid_x_int": 19,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1863,7 +1863,7 @@
             },
             "11111111-1111-1111-1111-00000000002b": {
                 "error": {},
-                "grid_x_int": 22,
+                "grid_x_int": 19,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -1881,7 +1881,7 @@
             },
             "11111111-1111-1111-1111-00000000002c": {
                 "error": {},
-                "grid_x_int": 23,
+                "grid_x_int": 20,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -1893,7 +1893,7 @@
             },
             "11111111-1111-1111-1111-00000000002d": {
                 "error": {},
-                "grid_x_int": 23,
+                "grid_x_int": 20,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -1905,7 +1905,7 @@
             },
             "11111111-1111-1111-1111-00000000002e": {
                 "error": {},
-                "grid_x_int": 23,
+                "grid_x_int": 20,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1917,7 +1917,7 @@
             },
             "11111111-1111-1111-1111-00000000002f": {
                 "error": {},
-                "grid_x_int": 23,
+                "grid_x_int": 20,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -1929,7 +1929,7 @@
             },
             "11111111-1111-1111-1111-000000000030": {
                 "error": {},
-                "grid_x_int": 23,
+                "grid_x_int": 20,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -1941,7 +1941,7 @@
             },
             "11111111-1111-1111-1111-000000000031": {
                 "error": {},
-                "grid_x_int": 24,
+                "grid_x_int": 21,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {
@@ -1959,7 +1959,7 @@
             },
             "11111111-1111-1111-1111-000000000032": {
                 "error": {},
-                "grid_x_int": 24,
+                "grid_x_int": 21,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -1971,7 +1971,7 @@
             },
             "11111111-1111-1111-1111-000000000033": {
                 "error": {},
-                "grid_x_int": 24,
+                "grid_x_int": 21,
                 "grid_y_int": 8,
                 "index": null,
                 "input": {},
@@ -1994,7 +1994,7 @@
             },
             "11111111-1111-1111-1111-000000000034": {
                 "error": {},
-                "grid_x_int": 24,
+                "grid_x_int": 21,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -2012,7 +2012,7 @@
             },
             "11111111-1111-1111-1111-000000000035": {
                 "error": {},
-                "grid_x_int": 24,
+                "grid_x_int": 21,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -2040,7 +2040,7 @@
             },
             "11111111-1111-1111-1111-000000000036": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {
@@ -2058,7 +2058,7 @@
             },
             "11111111-1111-1111-1111-000000000037": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -2070,7 +2070,7 @@
             },
             "11111111-1111-1111-1111-000000000038": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {
@@ -2088,7 +2088,7 @@
             },
             "11111111-1111-1111-1111-000000000039": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -2100,7 +2100,7 @@
             },
             "11111111-1111-1111-1111-00000000003a": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -2112,7 +2112,7 @@
             },
             "11111111-1111-1111-1111-00000000003b": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -2124,7 +2124,7 @@
             },
             "11111111-1111-1111-1111-00000000003c": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 18,
                 "index": null,
                 "input": {},
@@ -2136,7 +2136,7 @@
             },
             "11111111-1111-1111-1111-00000000003d": {
                 "error": {},
-                "grid_x_int": 25,
+                "grid_x_int": 22,
                 "grid_y_int": 19,
                 "index": null,
                 "input": {},
@@ -2148,7 +2148,7 @@
             },
             "11111111-1111-1111-1111-00000000003e": {
                 "error": {},
-                "grid_x_int": 26,
+                "grid_x_int": 23,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -2172,7 +2172,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 26,
+                "grid_x_int": 23,
                 "grid_y_int": 9,
                 "index": null,
                 "input": {},
@@ -2184,7 +2184,7 @@
             },
             "11111111-1111-1111-1111-000000000040": {
                 "error": {},
-                "grid_x_int": 26,
+                "grid_x_int": 23,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -2202,7 +2202,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 26,
+                "grid_x_int": 23,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -2214,7 +2214,7 @@
             },
             "11111111-1111-1111-1111-000000000042": {
                 "error": {},
-                "grid_x_int": 26,
+                "grid_x_int": 23,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {
@@ -2242,7 +2242,7 @@
             },
             "11111111-1111-1111-1111-000000000043": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -2254,7 +2254,7 @@
             },
             "11111111-1111-1111-1111-000000000044": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -2266,7 +2266,7 @@
             },
             "11111111-1111-1111-1111-000000000045": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -2278,7 +2278,7 @@
             },
             "11111111-1111-1111-1111-000000000046": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {
@@ -2296,7 +2296,7 @@
             },
             "11111111-1111-1111-1111-000000000047": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -2314,7 +2314,7 @@
             },
             "11111111-1111-1111-1111-000000000048": {
                 "error": {},
-                "grid_x_int": 27,
+                "grid_x_int": 24,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -2332,7 +2332,7 @@
             },
             "11111111-1111-1111-1111-000000000049": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -2344,7 +2344,7 @@
             },
             "11111111-1111-1111-1111-00000000004a": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -2356,7 +2356,7 @@
             },
             "11111111-1111-1111-1111-00000000004b": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {
@@ -2374,7 +2374,7 @@
             },
             "11111111-1111-1111-1111-00000000004c": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -2392,7 +2392,7 @@
             },
             "11111111-1111-1111-1111-00000000004d": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -2404,7 +2404,7 @@
             },
             "11111111-1111-1111-1111-00000000004e": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {
@@ -2422,7 +2422,7 @@
             },
             "11111111-1111-1111-1111-00000000004f": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {
@@ -2440,7 +2440,7 @@
             },
             "11111111-1111-1111-1111-000000000050": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -2452,7 +2452,7 @@
             },
             "11111111-1111-1111-1111-000000000051": {
                 "error": {},
-                "grid_x_int": 28,
+                "grid_x_int": 25,
                 "grid_y_int": 22,
                 "index": null,
                 "input": {},
@@ -2464,7 +2464,7 @@
             },
             "11111111-1111-1111-1111-000000000052": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -2476,7 +2476,7 @@
             },
             "11111111-1111-1111-1111-000000000053": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -2488,7 +2488,7 @@
             },
             "11111111-1111-1111-1111-000000000054": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -2500,7 +2500,7 @@
             },
             "11111111-1111-1111-1111-000000000055": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 10,
                 "index": null,
                 "input": {},
@@ -2512,7 +2512,7 @@
             },
             "11111111-1111-1111-1111-000000000056": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 11,
                 "index": null,
                 "input": {},
@@ -2524,7 +2524,7 @@
             },
             "11111111-1111-1111-1111-000000000057": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -2536,7 +2536,7 @@
             },
             "11111111-1111-1111-1111-000000000058": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -2548,7 +2548,7 @@
             },
             "11111111-1111-1111-1111-000000000059": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -2560,7 +2560,7 @@
             },
             "11111111-1111-1111-1111-00000000005a": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -2572,7 +2572,7 @@
             },
             "11111111-1111-1111-1111-00000000005b": {
                 "error": {},
-                "grid_x_int": 29,
+                "grid_x_int": 26,
                 "grid_y_int": 22,
                 "index": null,
                 "input": {},
@@ -2584,7 +2584,7 @@
             },
             "11111111-1111-1111-1111-00000000005c": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -2608,7 +2608,7 @@
                         "rot_int": 0
                     }
                 },
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -2620,7 +2620,7 @@
             },
             "11111111-1111-1111-1111-00000000005e": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -2632,7 +2632,7 @@
             },
             "11111111-1111-1111-1111-00000000005f": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 11,
                 "index": null,
                 "input": {},
@@ -2650,7 +2650,7 @@
             },
             "11111111-1111-1111-1111-000000000060": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -2662,7 +2662,7 @@
             },
             "11111111-1111-1111-1111-000000000061": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -2680,7 +2680,7 @@
             },
             "11111111-1111-1111-1111-000000000062": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -2698,7 +2698,7 @@
             },
             "11111111-1111-1111-1111-000000000063": {
                 "error": {},
-                "grid_x_int": 30,
+                "grid_x_int": 27,
                 "grid_y_int": 22,
                 "index": null,
                 "input": {},
@@ -2716,7 +2716,7 @@
             },
             "11111111-1111-1111-1111-000000000064": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -2728,7 +2728,7 @@
             },
             "11111111-1111-1111-1111-000000000065": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -2740,7 +2740,7 @@
             },
             "11111111-1111-1111-1111-000000000066": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -2758,7 +2758,7 @@
             },
             "11111111-1111-1111-1111-000000000067": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -2776,7 +2776,7 @@
             },
             "11111111-1111-1111-1111-000000000068": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 11,
                 "index": null,
                 "input": {},
@@ -2788,7 +2788,7 @@
             },
             "11111111-1111-1111-1111-000000000069": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -2800,7 +2800,7 @@
             },
             "11111111-1111-1111-1111-00000000006a": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -2818,7 +2818,7 @@
             },
             "11111111-1111-1111-1111-00000000006b": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -2830,7 +2830,7 @@
             },
             "11111111-1111-1111-1111-00000000006c": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -2842,7 +2842,7 @@
             },
             "11111111-1111-1111-1111-00000000006d": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -2854,7 +2854,7 @@
             },
             "11111111-1111-1111-1111-00000000006e": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 18,
                 "index": null,
                 "input": {},
@@ -2866,7 +2866,7 @@
             },
             "11111111-1111-1111-1111-00000000006f": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 22,
                 "index": null,
                 "input": {},
@@ -2878,7 +2878,7 @@
             },
             "11111111-1111-1111-1111-000000000070": {
                 "error": {},
-                "grid_x_int": 31,
+                "grid_x_int": 28,
                 "grid_y_int": 23,
                 "index": null,
                 "input": {},
@@ -2890,7 +2890,7 @@
             },
             "11111111-1111-1111-1111-000000000071": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 4,
                 "index": null,
                 "input": {},
@@ -2902,7 +2902,7 @@
             },
             "11111111-1111-1111-1111-000000000072": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -2914,7 +2914,7 @@
             },
             "11111111-1111-1111-1111-000000000073": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 7,
                 "index": null,
                 "input": {},
@@ -2926,7 +2926,7 @@
             },
             "11111111-1111-1111-1111-000000000074": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 8,
                 "index": null,
                 "input": {},
@@ -2938,7 +2938,7 @@
             },
             "11111111-1111-1111-1111-000000000075": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -2950,7 +2950,7 @@
             },
             "11111111-1111-1111-1111-000000000076": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -2962,7 +2962,7 @@
             },
             "11111111-1111-1111-1111-000000000077": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -2974,7 +2974,7 @@
             },
             "11111111-1111-1111-1111-000000000078": {
                 "error": {},
-                "grid_x_int": 32,
+                "grid_x_int": 29,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -2986,7 +2986,7 @@
             },
             "11111111-1111-1111-1111-000000000079": {
                 "error": {},
-                "grid_x_int": 33,
+                "grid_x_int": 30,
                 "grid_y_int": 3,
                 "index": null,
                 "input": {
@@ -3004,7 +3004,7 @@
             },
             "11111111-1111-1111-1111-00000000007a": {
                 "error": {},
-                "grid_x_int": 33,
+                "grid_x_int": 30,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {
@@ -3022,7 +3022,7 @@
             },
             "11111111-1111-1111-1111-00000000007b": {
                 "error": {},
-                "grid_x_int": 33,
+                "grid_x_int": 30,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -3034,7 +3034,7 @@
             },
             "11111111-1111-1111-1111-00000000007c": {
                 "error": {},
-                "grid_x_int": 33,
+                "grid_x_int": 30,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -3046,7 +3046,7 @@
             },
             "11111111-1111-1111-1111-00000000007d": {
                 "error": {},
-                "grid_x_int": 34,
+                "grid_x_int": 31,
                 "grid_y_int": 3,
                 "index": null,
                 "input": {},
@@ -3064,7 +3064,7 @@
             },
             "11111111-1111-1111-1111-00000000007e": {
                 "error": {},
-                "grid_x_int": 34,
+                "grid_x_int": 31,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -3076,7 +3076,7 @@
             },
             "11111111-1111-1111-1111-00000000007f": {
                 "error": {},
-                "grid_x_int": 34,
+                "grid_x_int": 31,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -3088,7 +3088,7 @@
             },
             "11111111-1111-1111-1111-000000000080": {
                 "error": {},
-                "grid_x_int": 34,
+                "grid_x_int": 31,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -3100,7 +3100,7 @@
             },
             "11111111-1111-1111-1111-000000000081": {
                 "error": {},
-                "grid_x_int": 35,
+                "grid_x_int": 32,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -3118,7 +3118,7 @@
             },
             "11111111-1111-1111-1111-000000000082": {
                 "error": {},
-                "grid_x_int": 35,
+                "grid_x_int": 32,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -3136,7 +3136,7 @@
             },
             "11111111-1111-1111-1111-000000000083": {
                 "error": {},
-                "grid_x_int": 35,
+                "grid_x_int": 32,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -3148,7 +3148,7 @@
             },
             "11111111-1111-1111-1111-000000000084": {
                 "error": {},
-                "grid_x_int": 35,
+                "grid_x_int": 32,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -3160,7 +3160,7 @@
             },
             "11111111-1111-1111-1111-000000000085": {
                 "error": {},
-                "grid_x_int": 36,
+                "grid_x_int": 33,
                 "grid_y_int": 5,
                 "index": null,
                 "input": {},
@@ -3172,7 +3172,7 @@
             },
             "11111111-1111-1111-1111-000000000086": {
                 "error": {},
-                "grid_x_int": 36,
+                "grid_x_int": 33,
                 "grid_y_int": 6,
                 "index": null,
                 "input": {},
@@ -3184,7 +3184,7 @@
             },
             "11111111-1111-1111-1111-000000000087": {
                 "error": {},
-                "grid_x_int": 36,
+                "grid_x_int": 33,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3196,7 +3196,7 @@
             },
             "11111111-1111-1111-1111-000000000088": {
                 "error": {},
-                "grid_x_int": 36,
+                "grid_x_int": 33,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -3214,7 +3214,7 @@
             },
             "11111111-1111-1111-1111-000000000089": {
                 "error": {},
-                "grid_x_int": 37,
+                "grid_x_int": 34,
                 "grid_y_int": 15,
                 "index": null,
                 "input": {},
@@ -3226,7 +3226,7 @@
             },
             "11111111-1111-1111-1111-00000000008a": {
                 "error": {},
-                "grid_x_int": 37,
+                "grid_x_int": 34,
                 "grid_y_int": 16,
                 "index": null,
                 "input": {},
@@ -3238,7 +3238,7 @@
             },
             "11111111-1111-1111-1111-00000000008b": {
                 "error": {},
-                "grid_x_int": 37,
+                "grid_x_int": 34,
                 "grid_y_int": 17,
                 "index": null,
                 "input": {},
@@ -3250,7 +3250,7 @@
             },
             "11111111-1111-1111-1111-00000000008c": {
                 "error": {},
-                "grid_x_int": 38,
+                "grid_x_int": 35,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {
@@ -3283,7 +3283,7 @@
             },
             "11111111-1111-1111-1111-00000000008d": {
                 "error": {},
-                "grid_x_int": 39,
+                "grid_x_int": 36,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3295,7 +3295,7 @@
             },
             "11111111-1111-1111-1111-00000000008e": {
                 "error": {},
-                "grid_x_int": 39,
+                "grid_x_int": 36,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {
@@ -3338,7 +3338,7 @@
             },
             "11111111-1111-1111-1111-00000000008f": {
                 "error": {},
-                "grid_x_int": 40,
+                "grid_x_int": 37,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3350,7 +3350,7 @@
             },
             "11111111-1111-1111-1111-000000000090": {
                 "error": {},
-                "grid_x_int": 40,
+                "grid_x_int": 37,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -3368,7 +3368,7 @@
             },
             "11111111-1111-1111-1111-000000000091": {
                 "error": {},
-                "grid_x_int": 41,
+                "grid_x_int": 38,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3380,7 +3380,7 @@
             },
             "11111111-1111-1111-1111-000000000092": {
                 "error": {},
-                "grid_x_int": 41,
+                "grid_x_int": 38,
                 "grid_y_int": 13,
                 "index": null,
                 "input": {},
@@ -3392,7 +3392,7 @@
             },
             "11111111-1111-1111-1111-000000000093": {
                 "error": {},
-                "grid_x_int": 41,
+                "grid_x_int": 38,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3404,7 +3404,7 @@
             },
             "11111111-1111-1111-1111-000000000094": {
                 "error": {},
-                "grid_x_int": 42,
+                "grid_x_int": 39,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3416,7 +3416,7 @@
             },
             "11111111-1111-1111-1111-000000000095": {
                 "error": {},
-                "grid_x_int": 42,
+                "grid_x_int": 39,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3428,7 +3428,7 @@
             },
             "11111111-1111-1111-1111-000000000096": {
                 "error": {},
-                "grid_x_int": 43,
+                "grid_x_int": 40,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3440,7 +3440,7 @@
             },
             "11111111-1111-1111-1111-000000000097": {
                 "error": {},
-                "grid_x_int": 43,
+                "grid_x_int": 40,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3452,7 +3452,7 @@
             },
             "11111111-1111-1111-1111-000000000098": {
                 "error": {},
-                "grid_x_int": 44,
+                "grid_x_int": 41,
                 "grid_y_int": 12,
                 "index": null,
                 "input": {},
@@ -3465,7 +3465,7 @@
             },
             "11111111-1111-1111-1111-000000000099": {
                 "error": {},
-                "grid_x_int": 44,
+                "grid_x_int": 41,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3477,7 +3477,7 @@
             },
             "11111111-1111-1111-1111-00000000009a": {
                 "error": {},
-                "grid_x_int": 45,
+                "grid_x_int": 42,
                 "grid_y_int": 14,
                 "index": null,
                 "input": {},
@@ -3800,16 +3800,427 @@
                     },
                     "uri": {
                         "expression": true,
-                        "value": "\"https://www.googleapis.com/drive/v3/files/\" + jsonPath($, \"entity.files[*].id\").toString()+ \"/export?alt=media\""
+                        "value": "\"https://www.googleapis.com/drive/v3/files/\" + _cfileId + \"/export?alt=media\""
                     }
                 },
                 "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-excelparser",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Parse the file contents"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "EvaluateFormulasProp": {
+                        "value": false
+                    },
+                    "cellFormatting": {
+                        "value": "Formatted"
+                    },
+                    "columnNamesProp": {
+                        "value": []
+                    },
+                    "containsHeaderProp": {
+                        "value": true
+                    },
+                    "customLocale": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "endRowProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "headerRowProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "lastBlankHeaders": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "nullEmptyColumns": {
+                        "value": true
+                    },
+                    "roundDateToSeconds": {
+                        "value": false
+                    },
+                    "sheetIndexOrNameProp": {
+                        "expression": false,
+                        "value": "0"
+                    },
+                    "sheetNameProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "startRowProp": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-apisuite-httpclient",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../shared/Google_drive_http",
+                                "value": "Google_drive_http"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-apisuite-accounts-httpoauth2account"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Download the contents"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "outputResponse": {
+                        "label": {
+                            "value": "Response"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "clientProperties": {
+                        "value": {
+                            "connection": {
+                                "value": {
+                                    "connTimeout": {
+                                        "value": 30
+                                    },
+                                    "cookiePolicy": {
+                                        "value": "RFC Lax"
+                                    },
+                                    "diskStagingProp": {
+                                        "value": false
+                                    },
+                                    "readTimeout": {
+                                        "value": 900
+                                    },
+                                    "trustAllCerts": {
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "outputProps": {
+                                "value": {
+                                    "errorRespToErrorview": {
+                                        "value": true
+                                    },
+                                    "extractEntity": {
+                                        "value": true
+                                    },
+                                    "extractEntityPath": {
+                                        "expression": true,
+                                        "value": null
+                                    },
+                                    "includeCookies": {
+                                        "value": false
+                                    },
+                                    "responseType": {
+                                        "value": "Text"
+                                    }
+                                }
+                            },
+                            "redirects": {
+                                "value": {
+                                    "allowCircularRedirect": {
+                                        "value": false
+                                    },
+                                    "allowRelativeRedirect": {
+                                        "value": true
+                                    },
+                                    "followOriginalMethod": {
+                                        "value": false
+                                    },
+                                    "followRedirection": {
+                                        "value": true
+                                    },
+                                    "maxRedirect": {
+                                        "expression": false,
+                                        "value": 10
+                                    }
+                                }
+                            },
+                            "retry": {
+                                "value": {
+                                    "autoRetry429": {
+                                        "value": true
+                                    },
+                                    "maxRetry": {
+                                        "value": 5
+                                    },
+                                    "retryCondition": {
+                                        "value": "Connection Errors"
+                                    },
+                                    "retryInterval": {
+                                        "value": 3
+                                    },
+                                    "useRetryAfterHeader": {
+                                        "value": true
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "enableDebug": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "formEncodeSpace": {
+                        "value": true
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "headerNameProp": {
+                                    "expression": false,
+                                    "value": "Content-Type"
+                                },
+                                "headerValProp": {
+                                    "expression": false,
+                                    "value": "text/csv"
+                                }
+                            },
+                            {
+                                "headerNameProp": {
+                                    "expression": false,
+                                    "value": "accept"
+                                },
+                                "headerValProp": {
+                                    "expression": false,
+                                    "value": "*/*"
+                                }
+                            }
+                        ]
+                    },
+                    "httpEntity": {
+                        "value": {
+                            "binaryFile": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "entityType": {
+                                "value": "none"
+                            },
+                            "multipartForm": {
+                                "value": [
+                                    {
+                                        "partContentType": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partKey": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partType": {
+                                            "value": "Text"
+                                        },
+                                        "partValue": {
+                                            "expression": false,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "multipartSubtype": {
+                                "expression": false,
+                                "value": "form-data"
+                            },
+                            "rawEntity": {
+                                "expression": true,
+                                "value": "$"
+                            },
+                            "urlEncodedForm": {
+                                "value": []
+                            }
+                        }
+                    },
+                    "httpMethod": {
+                        "expression": false,
+                        "value": "GET"
+                    },
+                    "pagination": {
+                        "value": {
+                            "hasNext": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "maxPage": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "nextUrl": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "overrideHeaders": {
+                                "value": [
+                                    {
+                                        "overrideHeaderName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideHeaderValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideParams": {
+                                "value": [
+                                    {
+                                        "overrideParamName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideParamValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideURI": {
+                                "value": false
+                            },
+                            "paginationInterval": {
+                                "value": 0
+                            },
+                            "reuseParamsForPagination": {
+                                "value": false
+                            }
+                        }
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "queryParam": {
+                        "value": [
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "supportsAllDrives"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "true"
+                                }
+                            },
+                            {
+                                "paramKeyProp": {
+                                    "expression": false,
+                                    "value": "mimeType"
+                                },
+                                "paramValProp": {
+                                    "expression": false,
+                                    "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                                }
+                            }
+                        ]
+                    },
+                    "uri": {
+                        "expression": true,
+                        "value": "\"https://www.googleapis.com/drive/v3/files/\" + jsonPath($, \"entity.files[*].id\").toString()+ \"/export?alt=media\""
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-apisuite-httpclient",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -3955,7 +4366,7 @@
                         "value": true
                     },
                     "execution_mode": {
-                        "value": "Validate & Execute"
+                        "value": "Disabled"
                     },
                     "formEncodeSpace": {
                         "value": false
@@ -4128,108 +4539,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000002": {
-            "class_id": "com-snaplogic-snaps-transform-excelparser",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Parse the file contents"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "binary"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "EvaluateFormulasProp": {
-                        "value": false
-                    },
-                    "cellFormatting": {
-                        "value": "Formatted"
-                    },
-                    "columnNamesProp": {
-                        "value": []
-                    },
-                    "containsHeaderProp": {
-                        "value": true
-                    },
-                    "customLocale": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "endRowProp": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "headerRowProp": {
-                        "expression": false,
-                        "value": 1
-                    },
-                    "lastBlankHeaders": {
-                        "expression": false,
-                        "value": 0
-                    },
-                    "nullEmptyColumns": {
-                        "value": true
-                    },
-                    "roundDateToSeconds": {
-                        "value": false
-                    },
-                    "sheetIndexOrNameProp": {
-                        "expression": false,
-                        "value": "0"
-                    },
-                    "sheetNameProp": {
-                        "expression": false,
-                        "value": null
-                    },
-                    "startRowProp": {
-                        "expression": false,
-                        "value": null
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-apisuite-httpclient",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -4539,10 +4852,10 @@
                 "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000004": {
+        "11111111-1111-1111-1111-000000000005": {
             "class_id": "com-snaplogic-snaps-flow-filter",
             "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
                 "error": {
                     "error0": {
@@ -4593,319 +4906,6 @@
                     },
                     "nullSafeAccess": {
                         "value": false
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000005": {
-            "class_id": "com-snaplogic-snaps-apisuite-httpclient",
-            "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000005",
-            "property_map": {
-                "account": {
-                    "account_ref": {
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "label": "../shared/Google_drive_http",
-                                "value": "Google_drive_http"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snaps-apisuite-accounts-httpoauth2account"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Download the contents"
-                    },
-                    "notes": {}
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "outputResponse": {
-                        "label": {
-                            "value": "Response"
-                        },
-                        "view_type": {
-                            "value": "binary"
-                        }
-                    }
-                },
-                "settings": {
-                    "clientProperties": {
-                        "value": {
-                            "connection": {
-                                "value": {
-                                    "connTimeout": {
-                                        "value": 30
-                                    },
-                                    "cookiePolicy": {
-                                        "value": "RFC Lax"
-                                    },
-                                    "diskStagingProp": {
-                                        "value": false
-                                    },
-                                    "readTimeout": {
-                                        "value": 900
-                                    },
-                                    "trustAllCerts": {
-                                        "value": false
-                                    }
-                                }
-                            },
-                            "outputProps": {
-                                "value": {
-                                    "errorRespToErrorview": {
-                                        "value": true
-                                    },
-                                    "extractEntity": {
-                                        "value": true
-                                    },
-                                    "extractEntityPath": {
-                                        "expression": true,
-                                        "value": null
-                                    },
-                                    "includeCookies": {
-                                        "value": false
-                                    },
-                                    "responseType": {
-                                        "value": "Text"
-                                    }
-                                }
-                            },
-                            "redirects": {
-                                "value": {
-                                    "allowCircularRedirect": {
-                                        "value": false
-                                    },
-                                    "allowRelativeRedirect": {
-                                        "value": true
-                                    },
-                                    "followOriginalMethod": {
-                                        "value": false
-                                    },
-                                    "followRedirection": {
-                                        "value": true
-                                    },
-                                    "maxRedirect": {
-                                        "expression": false,
-                                        "value": 10
-                                    }
-                                }
-                            },
-                            "retry": {
-                                "value": {
-                                    "autoRetry429": {
-                                        "value": true
-                                    },
-                                    "maxRetry": {
-                                        "value": 5
-                                    },
-                                    "retryCondition": {
-                                        "value": "Connection Errors"
-                                    },
-                                    "retryInterval": {
-                                        "value": 3
-                                    },
-                                    "useRetryAfterHeader": {
-                                        "value": true
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "enableDebug": {
-                        "value": false
-                    },
-                    "execution_mode": {
-                        "value": "Disabled"
-                    },
-                    "formEncodeSpace": {
-                        "value": true
-                    },
-                    "header": {
-                        "value": [
-                            {
-                                "headerNameProp": {
-                                    "expression": false,
-                                    "value": "Content-Type"
-                                },
-                                "headerValProp": {
-                                    "expression": false,
-                                    "value": "text/csv"
-                                }
-                            },
-                            {
-                                "headerNameProp": {
-                                    "expression": false,
-                                    "value": "accept"
-                                },
-                                "headerValProp": {
-                                    "expression": false,
-                                    "value": "*/*"
-                                }
-                            }
-                        ]
-                    },
-                    "httpEntity": {
-                        "value": {
-                            "binaryFile": {
-                                "expression": false,
-                                "value": null
-                            },
-                            "entityType": {
-                                "value": "none"
-                            },
-                            "multipartForm": {
-                                "value": [
-                                    {
-                                        "partContentType": {
-                                            "expression": false,
-                                            "value": null
-                                        },
-                                        "partKey": {
-                                            "expression": false,
-                                            "value": null
-                                        },
-                                        "partType": {
-                                            "value": "Text"
-                                        },
-                                        "partValue": {
-                                            "expression": false,
-                                            "value": null
-                                        }
-                                    }
-                                ]
-                            },
-                            "multipartSubtype": {
-                                "expression": false,
-                                "value": "form-data"
-                            },
-                            "rawEntity": {
-                                "expression": true,
-                                "value": "$"
-                            },
-                            "urlEncodedForm": {
-                                "value": []
-                            }
-                        }
-                    },
-                    "httpMethod": {
-                        "expression": false,
-                        "value": "GET"
-                    },
-                    "pagination": {
-                        "value": {
-                            "hasNext": {
-                                "expression": true,
-                                "value": null
-                            },
-                            "maxPage": {
-                                "expression": false,
-                                "value": null
-                            },
-                            "nextUrl": {
-                                "expression": true,
-                                "value": null
-                            },
-                            "overrideHeaders": {
-                                "value": [
-                                    {
-                                        "overrideHeaderName": {
-                                            "expression": false,
-                                            "value": null
-                                        },
-                                        "overrideHeaderValue": {
-                                            "expression": true,
-                                            "value": null
-                                        }
-                                    }
-                                ]
-                            },
-                            "overrideParams": {
-                                "value": [
-                                    {
-                                        "overrideParamName": {
-                                            "expression": false,
-                                            "value": null
-                                        },
-                                        "overrideParamValue": {
-                                            "expression": true,
-                                            "value": null
-                                        }
-                                    }
-                                ]
-                            },
-                            "overrideURI": {
-                                "value": false
-                            },
-                            "paginationInterval": {
-                                "value": 0
-                            },
-                            "reuseParamsForPagination": {
-                                "value": false
-                            }
-                        }
-                    },
-                    "preventURLEncoding": {
-                        "value": false
-                    },
-                    "queryParam": {
-                        "value": [
-                            {
-                                "paramKeyProp": {
-                                    "expression": false,
-                                    "value": "supportsAllDrives"
-                                },
-                                "paramValProp": {
-                                    "expression": false,
-                                    "value": "true"
-                                }
-                            },
-                            {
-                                "paramKeyProp": {
-                                    "expression": false,
-                                    "value": "mimeType"
-                                },
-                                "paramValProp": {
-                                    "expression": false,
-                                    "value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                                }
-                            }
-                        ]
-                    },
-                    "uri": {
-                        "expression": true,
-                        "value": "\"https://www.googleapis.com/drive/v3/files/\" + _cfileId + \"/export?alt=media\""
                     }
                 },
                 "view_serial": 100
@@ -8205,8 +8205,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -17390,8 +17389,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -18262,8 +18260,8 @@
                         ]
                     },
                     "uri": {
-                        "expression": false,
-                        "value": "https://esb-uat.asu.edu/api/v1/asu-sf-campaign/campaignMember"
+                        "expression": true,
+                        "value": "_Path_Url +\"/api/v1/asu-sf-campaign/campaignMember\""
                     }
                 },
                 "view_serial": 100
@@ -18762,7 +18760,7 @@
                     },
                     "uri": {
                         "expression": true,
-                        "value": "_Path_Url + \"/api/v1/asu-sf-contact/contactSm\""
+                        "value": "_Path_Url +\"/api/v1/asu-sf-contact/contactSm\""
                     }
                 },
                 "view_serial": 100
@@ -19291,8 +19289,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -19647,8 +19644,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -20419,8 +20415,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -20734,8 +20729,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -21436,8 +21430,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -21712,8 +21705,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -22777,7 +22769,7 @@
                     },
                     "uri": {
                         "expression": true,
-                        "value": "_Path_Url +\"/api/v1/asu-sf-campaign/campaignMember/\"+$campaignMemberId"
+                        "value": "_Path_Url +\"/api/v1/asu-sf-campaign/campaignMember/\" + $campaignMemberId"
                     }
                 },
                 "view_serial": 100
@@ -23551,8 +23543,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -23686,8 +23677,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
@@ -24201,8 +24191,7 @@
                         "value": {
                             "label": {
                                 "expression": false,
-                                "label": "../shared/s3dl-sforce-staging-write",
-                                "value": "s3dl-sforce-staging-write"
+                                "value": "s3dl-sforce-staging"
                             },
                             "ref_class_id": {
                                 "value": "com-snaplogic-snaps-s3-s3account"
